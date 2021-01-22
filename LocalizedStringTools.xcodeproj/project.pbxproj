@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04CA5F9D25BADE50002BA881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA5F9C25BADE50002BA881 /* main.m */; };
+		04CA5FA925BADE5E002BA881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA5FA425BADE5E002BA881 /* main.m */; };
+		04CA5FAA25BADE5E002BA881 /* MainDemand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA5FA725BADE5E002BA881 /* MainDemand.m */; };
+		04CA5FAB25BADE5E002BA881 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA5FA825BADE5E002BA881 /* CommonTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		04CA5F9925BADE50002BA881 /* LocalizedStringTools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocalizedStringTools; sourceTree = BUILT_PRODUCTS_DIR; };
-		04CA5F9C25BADE50002BA881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CA5FA425BADE5E002BA881 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../../../朱晓丹/GitHub/PlistEncodeTools/PlistTool/PlistTool/main.m"; sourceTree = "<group>"; };
+		04CA5FA525BADE5E002BA881 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		04CA5FA625BADE5E002BA881 /* MainDemand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDemand.h; sourceTree = "<group>"; };
+		04CA5FA725BADE5E002BA881 /* MainDemand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDemand.m; sourceTree = "<group>"; };
+		04CA5FA825BADE5E002BA881 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		04CA5F9B25BADE50002BA881 /* LocalizedStringTools */ = {
 			isa = PBXGroup;
 			children = (
-				04CA5F9C25BADE50002BA881 /* main.m */,
+				04CA5FA525BADE5E002BA881 /* CommonTools.h */,
+				04CA5FA825BADE5E002BA881 /* CommonTools.m */,
+				04CA5FA425BADE5E002BA881 /* main.m */,
+				04CA5FA625BADE5E002BA881 /* MainDemand.h */,
+				04CA5FA725BADE5E002BA881 /* MainDemand.m */,
 			);
 			path = LocalizedStringTools;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CA5F9D25BADE50002BA881 /* main.m in Sources */,
+				04CA5FA925BADE5E002BA881 /* main.m in Sources */,
+				04CA5FAA25BADE5E002BA881 /* MainDemand.m in Sources */,
+				04CA5FAB25BADE5E002BA881 /* CommonTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
